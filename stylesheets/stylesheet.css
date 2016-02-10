@@ -71,6 +71,10 @@ a {
   .page-header {
     padding: 2rem 1rem; } }
 
+.org-name {
+  font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
+}
+
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem; }
