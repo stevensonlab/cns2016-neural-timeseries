@@ -41,7 +41,16 @@ body {
 }
 
 /*----- Section Titles -----*/
-.accordion-section-title, accordion-section {
+.accordion-section-title {
+	width:100%;
+	padding:10px;
+	display:inline-block;
+	border-bottom:1px solid #eee;
+	transition:all linear 0.15s;
+	/* Type */
+}
+
+.accordion-section-title-dummy {
 	width:100%;
 	padding:10px;
 	display:inline-block;
