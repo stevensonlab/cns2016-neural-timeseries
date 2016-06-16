@@ -43,75 +43,86 @@
 <li>What machine learning tools can be applied to nonlinear neural time series?</li>
 </ol>
 
-<h1>
-<a id="confirmed-speakers" class="anchor" href="#confirmed-speakers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Confirmed Speakers</h1>
-
-<ul>
-    <li><b>Shin Ishii</b>, Kyoto University, Japan</li>
-    <li><b>Justin Dauwels</b>, Nanyang Technological University, Singapore</li>
-    <li><b>Taro Toyoizumi</b>, RIKEN Brain Science Institute, Japan</li>
-    <li><b>Sukbin Lim</b>, NYU Shanghai, China</li>
-    <li><b>Si Wu</b>, Beijing Normal University, China</li>
-    <li><b>Shinsuke Koyama</b>, Institute of Statistical Mathematics, Japan</li>
-    <li><b>Memming Park</b>, Stony Brook University, USA</li>
-</ul>
-
-
   <h1>Schedule</h1>
 
   <div class="accordion">
     <div class="accordion-section">
-      <div class="accordion-section-title-dummy"><a>Welcome</a></div>
-      </div><!--end .accordion-section-->
+      <div class="accordion-section-title-dummy">08:50-09:00 <a>Welcome</a></div>
+    </div><!--end .accordion-section-->
 
-      <div class="accordion-section">
-      <div class="accordion-section-title" href="#accordion-1"><a>Shin Ishii</a> Machine Learning Approaches to Decoding Neural Activities</div>
-      <div id="accordion-1" class="accordion-section-content">
-        <p>Abstract: Recent progress in imaging technologies now allow us to observe activities of neural systems with high throughput. We should rely on machine learning techniques to extract information from such large-scale data. In this talk, I present two decoding studies recently done in our group.
-The first topic is to identify how a small animal recognizes its surrounding environment in a natural condition. Our collaborator has successfully conducted Calcium imaging of a thermal sensory neuron during worms (C. elegans) are freely performing thermotactic behaviors. We attempted to identify the response function of the sensory neuron, and found that the neuron actually translates the worm’s thermal environment to its activity with high sensitivity. Our decoding analysis also found that the worm’s sensory system is consistent over individuals and moreover it is sufficient for reconstructing the thermal environment to know the activity of the sensory neuron.
-The second topic is to decode human’s spatial attention from his/her electroencephalography (EEG). When considering applications to brain machine interface in real-life situations, necessity to collect data from each individual could be a burden. To make it more applicable, we developed a subject-transfer decoding technique, in which a target subject’s decoder would be constructed by transforming another decoder that had been constructed based on non-target subjects’ data. This subject-transferability was established by combing dictionary learning from multiple subjects’ data and calibration based on resting brain activities. We found that our dictionary learning could extract common EEG bases over the subjects, and the resting activity-based calibration worked well to make those bases applicable to new target subjects such to compensate unknown individuality.</p>
+    <div class="accordion-section">
+        <div class="accordion-section-title-dummy" href="#accordion-6">09:00-09:40 <a>Ian Stevenson</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  A Sparse Common Input Model for Population Neural Activity
       </div>
-      </div><!--end .accordion-section-->
+      </div>
 
       <div class="accordion-section">
-        <div class="accordion-section-title" href="#accordion-2"><a>Justin Dauwels</a> Modeling Time-Varying Functional Networks in Multichannel Neural Recordings</div>
+        <div class="accordion-section-title-dummy" href="#accordion-7">09:40-10:20 <a>Shinsuke Koyama</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fluctuation Scaling in Neural Spike Trains
+        </div>
+      </div>
+
+
+    <div class="accordion-section">
+      <div class="accordion-section-title-dummy">10:20-10:40 <a>Break</a></div>
+    </div><!--end .accordion-section-->
+
+
+ <div class="accordion-section">
+        <div class="accordion-section-title-dummy" href="#accordion-6">10:40-11:20 <a>Si Wu</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Adaptive Neural Information Processing with Dynamical Synapses</div>
+      </div>
+
+
+      <div class="accordion-section">
+        <div class="accordion-section-title-dummy" href="#accordion-4">11:20-12:00 <a>Sukbin Lim</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A Network Model with Plastic Recurrent Connectivity that Reproduces the Time Course of Visual Responses to Novel and Familiar Images in IT Cortex</div>
+      </div><!--end .accordion-section-->
+
+     
+
+    <div class="accordion-section">
+      <div class="accordion-section-title-dummy">12:00-13:30 <a>Lunch</a></div>
+    </div><!--end .accordion-section-->
+
+  <div class="accordion-section">
+        <div class="accordion-section-title" href="#accordion-2">13:30-14:10 <a>Justin Dauwels</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Modeling Time-Varying Functional Networks in Multichannel Neural Recordings</div>
         <div id="accordion-2" class="accordion-section-content">
           <p>Abstract: We consider the problem of learning dynamic graphical models that capture time-evolving interactions between a set of data-streams. Specifically, we propose a tuning-free Bayesian inference method. In the propose model, sparsity-promoting priors are imposed on graphical models at all time points as well as the differences between every two consecutive graphical models. This encourages adjacent sparse graphs to share similar structures. Efficient variational Bayes algorithms are then developed to learn the model. We further apply the proposed mechanism to multichannel neural recordings, and show the dynamics of functional networks through epileptic seizures. Our results suggest that the functional networks are usually dense at the onset and end of seizures but sparse in between.</p>
         </div><!--end .accordion-section-content-->
       </div><!--end .accordion-section-->
 
+    <div class="accordion-section">
+      <div class="accordion-section-title" href="#accordion-1">14:10-14:50 <a>Shin Ishii</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Machine Learning Approaches to Decoding Neural Activities</div>
+      <div id="accordion-1" class="accordion-section-content">
+        <p>Abstract: Recent progress in imaging technologies now allow us to observe activities of neural systems with high throughput. We should rely on machine learning techniques to extract information from such large-scale data. In this talk, I present two decoding studies recently done in our group.
+The first topic is to identify how a small animal recognizes its surrounding environment in a natural condition. Our collaborator has successfully conducted Calcium imaging of a thermal sensory neuron during worms (C. elegans) are freely performing thermotactic behaviors. We attempted to identify the response function of the sensory neuron, and found that the neuron actually translates the worm’s thermal environment to its activity with high sensitivity. Our decoding analysis also found that the worm’s sensory system is consistent over individuals and moreover it is sufficient for reconstructing the thermal environment to know the activity of the sensory neuron.
+The second topic is to decode human’s spatial attention from his/her electroencephalography (EEG). When considering applications to brain machine interface in real-life situations, necessity to collect data from each individual could be a burden. To make it more applicable, we developed a subject-transfer decoding technique, in which a target subject’s decoder would be constructed by transforming another decoder that had been constructed based on non-target subjects’ data. This subject-transferability was established by combing dictionary learning from multiple subjects’ data and calibration based on resting brain activities. We found that our dictionary learning could extract common EEG bases over the subjects, and the resting activity-based calibration worked well to make those bases applicable to new target subjects such to compensate unknown individuality.</p>
+      </div>
+    </div><!--end .accordion-section-->
+
+
+    <div class="accordion-section">
+      <div class="accordion-section-title-dummy">14:50-15:20 <a>Break</a></div>
+    </div><!--end .accordion-section-->
+
+
+
+      <div class="accordion-section">
+        <div class="accordion-section-title-dummy" href="#accordion-8">15:20-16:00 <a>Memming Park</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Scalable Latent Trajectory Inference for Identifying Neural Computation</div>
       <div class="accordion-section">
 
-        <div class="accordion-section-title" href="#accordion-3"><a>Taro Toyoizumi</a> Untangling Brain-Wide Dynamics by Cross-Embedding</div>
+        <div class="accordion-section-title" href="#accordion-3">16:00-16:40 <a>Taro Toyoizumi</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Untangling Brain-Wide Dynamics by Cross-Embedding</div>
         <div id="accordion-3" class="accordion-section-content">
           <p> Abstract: Brain-wide interactions generating complex neural dynamics are considered crucial for emergent cognitive functions. However, the irreducible nature of nonlinear and high-dimensional dynamical interactions challenges conventional reductionist approaches. We introduce a model-free method, based on embedding theorems in nonlinear state-space reconstruction, that permits a simultaneous characterization of complexity in local dynamics, directed interactions between brain areas, and how the complexity is produced by the interactions. We demonstrate this method in large-scale electrophysiological recordings from awake and anesthetized monkeys. The method reveals a consciousness-related hierarchy of cortical areas, where dynamical complexity increases along with cross-area information flow. These findings demonstrate the advantages of the cross-embedding method in deciphering large-scale and heterogeneous neuronal systems, suggesting a crucial contribution by sensory-frontoparietal interactions to the emergence of complex brain dynamics during consciousness.</p>
         </div><!--end .accordion-section-content-->
       </div>
 
-      <div class="accordion-section">
-        <div class="accordion-section-title" href="#accordion-4"><a>Sukbin Lim</a> A Network Model with Plastic Recurrent Connectivity that Reproduces the Time Course of Visual Responses to Novel and Familiar Images in IT Cortex</div>
-        <div id="accordion-4" class="accordion-section-content">
-          <p>Abstract</p>
-        </div><!--end .accordion-section-content-->
-      </div><!--end .accordion-section-->
 
-      <div class="accordion-section">
-        <div class="accordion-section-title-dummy" href="#accordion-6"><a>Si Wu</a>  Adaptive Neural Information Processing with Dynamical Synapses</div>
-      </div>
+    <div class="accordion-section">
+      <div class="accordion-section-title-dummy">16:40-17:00 <a>Closing Remarks</a></div>
+    </div><!--end .accordion-section-->
 
-      <div class="accordion-section">
-        <div class="accordion-section-title" href="#accordion-7"><a>Shinsuke Koyama</a> Fluctuation Scaling in Neural Spike Trains</div>
-        <div id="accordion-7" class="accordion-section-content">
-          <p>Abstract</p>
-        </div><!--end .accordion-section-content-->
-      </div>
+    
 
 
-      <div class="accordion-section">
-        <div class="accordion-section-title" href="#accordion-8"><a>Memming Park</a> Scalable Latent Trajectory Inference for Identifying Neural Computation</div>
-        <div id="accordion-8" class="accordion-section-content">
-          <p>Abstract</p>
-        </div><!--end .accordion-section-content-->
+
 
       </div><!--end .accordion-section-->
 
